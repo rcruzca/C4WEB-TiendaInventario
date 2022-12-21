@@ -16,6 +16,17 @@ public class Productos {
     @Field("estado")
     private Boolean estado;
 
+    @Field("imagen")
+    private String imagen;
+
+    public String getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
+    }
+
     @DBRef
     private Categorias categoriaId;
 
