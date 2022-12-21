@@ -54,6 +54,7 @@ public class ProductosController {
             productosUpdate.setCategoriaId(productos.getCategoriaId());
             productosUpdate.setMarcaId(productos.getMarcaId());
             productosUpdate.setUnidadMedidaId(productos.getUnidadMedidaId());
+            productosUpdate.setImagen(productos.getImagen());
             return service.save(productosUpdate);
         }
         return productos;
