@@ -1,4 +1,4 @@
-const API="http://localhost:8080/api"
+const API="http://129.146.18.141:8080/api/api"
 
 export const   INVENTARIOSCREADOS_GET_ENDPOINT=API+"/inventarios"
 export const   PRODUCTOSCREADOS_GET_ENDPOINT=API+"/productos"
