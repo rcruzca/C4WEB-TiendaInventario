@@ -6,6 +6,7 @@ com\unab\tienda\IService\IProductosService.class
 com\unab\tienda\Service\ProductosService.class
 com\unab\tienda\Controller\ProductosController.class
 com\unab\tienda\Collection\UnidadesMedidas.class
+com\unab\tienda\ServletInitializer.class
 com\unab\tienda\IRepository\IUnidadesMedidasRepository.class
 com\unab\tienda\IService\ICategoriasService.class
 com\unab\tienda\IService\IMarcasService.class
